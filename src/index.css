@@ -4,8 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: #17151c;
+  color: teal;
   overflow-x: hidden;
 }
 #root {
@@ -47,7 +47,7 @@ h1 {
 .mint-nft,
 .member-page {
   flex-direction: column;
-  width: 960px;
+  width: 1990px;
   max-width: calc(100% - 1rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -55,6 +55,7 @@ h1 {
   align-content: center;
   display: flex;
   text-align: center;
+
 }
 
 .member-page > div {
@@ -93,7 +94,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color:teal;
 }
 
 .member-page form .card > div {
