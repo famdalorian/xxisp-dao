@@ -2,7 +2,7 @@ import sdk from "./1-initialize-sdk.js";
 
 (async () => {
   try {
-    const editionDrop = await sdk.getContract("0x47ed572e12C4746206F357B6A25Cb8709D3Ef9Ef", "edition-drop");
+    const editionDrop = await sdk.getContract("0xA66DBF9af5935939c0DbAEaA75ba20b9DacCc720", "edition-drop");
     const token = await sdk.getContract("0x13100136EDf17BB60BD6d7b88299665B40468247", "token");
     
     const walletAddresses = await editionDrop.history.getAllClaimerAddresses(0);
